@@ -5,7 +5,7 @@
     <div class="closebtn"></div>
 
     <div class="left-top text-center">
-      <a href="<?php home_url('/') ?>" class="menu-logo"><img class="mascot" src="<?php echo bloginfo('template_directory'); ?>/assets/images/svg/bishopquigley-text.svg"></a>
+      <a href="<?php home_url('/') ?>" class="menu-logo"><img class="mascot" src="<?php echo bloginfo('template_directory'); ?>/assets/images/svg/swirl66-logo-badge.svg"></a>
 
       <div class="menu-desc">
         <p><?php echo the_field('hero_headline', 'option') ?></p>
