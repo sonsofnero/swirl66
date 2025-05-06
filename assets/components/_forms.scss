@@ -3,26 +3,26 @@
 }
 
 .form-input {
-	border: 1px solid $black;
+	border: 1px solid $chocolate;
 	background-color: $white;
-	color: $black;
+	color: $chocolate;
 	border-radius: 8px;
 	padding: 17px 24px;
 	font-size: 16px;
 	transition: all 0.3s ease-in-out;
 
 	&::placeholder {
-		color: $black;
+		color: $chocolate;
 		font-size: 16px;
 	}
 
 	&:focus {
-		border: 2px solid $green;
+		border: 2px solid $chocolate;
 		outline: none;
 	}
 
 	&:hover {
-		border: 2px solid $green;
+		border: 2px solid $berry;
 		outline: none;
 	}
 }
@@ -38,12 +38,12 @@
 	background-color: $berry !important;
 	color: $white !important;
 	padding: 18px 42px;
-	border: 3px solid $berry !important;
+	border: 0px !important;
 	transition: all 0.3s ease-in-out;
 
 	&:hover {
 		background-color: $chocolate !important;
-		border: 3px solid $chocolate !important;
+		border: 0px !important;
 		color: $white !important;
 	}
 }
