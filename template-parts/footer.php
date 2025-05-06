@@ -2,7 +2,7 @@
 <footer class="container bg-chocolate gx-0">
   <div class="footer">
     <div class="footer__left">
-      <a href="" class="footer__logo">Maple Ridge Grocer</a>
+      <a href="" class="footer__logo">Swirl 66</a>
     </div>
 
     <div class="footer__right">
