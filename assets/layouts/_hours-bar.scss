@@ -1,0 +1,30 @@
+.hours-bar {
+	display: block;
+	background-color: $berry;
+	text-align: center;
+	padding: 12px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 5;
+
+	span {
+		font-family: $font-jost;
+		font-size: 16px;
+		font-weight: 900;
+		line-height: 16px;
+		text-transform: uppercase;
+		color: $cone;
+		display: flex;
+		justify-content: center;
+
+		#hours {
+			padding-left: 10px;
+		}
+
+		@media (max-width: $mobile) {
+			font-size: 14px;
+		}
+	}
+}

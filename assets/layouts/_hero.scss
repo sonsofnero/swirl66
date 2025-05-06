@@ -1,0 +1,181 @@
+.hero {
+	&__content {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		text-align: center;
+		padding: 6rem 2em;
+		background-color: $cream;
+
+		.h5 {
+			display: block;
+			margin: 0 auto 40px;
+			width: 100%;
+			max-width: 560px;
+			text-transform: none;
+			color: $chocolate;
+		}
+
+		.btn--arrow {
+			color: $black;
+		}
+
+		@media (max-width: $tablet) {
+			flex-direction: column;
+			overflow: hidden;
+		}
+
+		@media (max-width: $mobile) {
+			padding: 3rem 2em 2rem;
+		}
+	}
+
+	//hero logo
+	&__logo {
+		width: 100%;
+		max-width: 160px;
+		display: block;
+		margin: 0 auto 40px;
+		color: $black;
+
+		img {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	h1 {
+		margin-bottom: 35px;
+	}
+
+	&__buttons {
+		display: flex;
+		justify-content: center;
+		list-style: none;
+		padding: 0;
+		width: 100%;
+
+		li {
+			margin: 0 9px 9px;
+		}
+
+		@media (max-width: $mobile-xs) {
+			flex-wrap: wrap;
+
+			li,
+			a {
+				width: 100%;
+			}
+
+			li {
+				margin-bottom: 14px;
+			}
+		}
+	}
+
+	&__slider {
+		height: 100%;
+
+		@media (max-width: $tablet) {
+			height: 500px;
+		}
+
+		@media (max-width: $mobile) {
+			height: 320px;
+		}
+
+		.slick-slide,
+		.slick-list,
+		.slick-track {
+			height: 100%;
+		}
+
+		.slide {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			overflow: hidden;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+}
+
+.swiper-pagination {
+	display: none;
+
+	@media (max-width: $mobile) {
+		display: block;
+	}
+}
+
+.slider-pagination {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: $berry;
+	display: flex;
+	justify-content: center;
+	z-index: 2;
+	width: 160px;
+
+	@media (max-width: $mobile) {
+		display: none;
+	}
+
+	div {
+		color: $cone;
+		padding: 25px 8px;
+		text-decoration: none;
+
+		i {
+			font-size: 30px;
+
+			&::before {
+				transition: 0.3s ease-in-out;
+			}
+		}
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.slider-pagination__left {
+		&:hover {
+			i:before {
+				transform: translateX(-10px);
+			}
+		}
+	}
+
+	.slider-pagination__right {
+		&:hover {
+			i:before {
+				transform: translateX(10px);
+			}
+		}
+	}
+}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+.slick-dots {
+	bottom: 15px;
+}
+
+.swiper-pagination-bullet {
+	border: 2px solid $white;
+	border-radius: 50%;
+	height: 17px;
+	width: 17px;
+}
+
+.swiper-pagination-bullet-active {
+	border: 2px solid $green;
+	background-color: $white;
+}

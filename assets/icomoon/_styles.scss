@@ -1,0 +1,54 @@
+@import "variables";
+
+@font-face {
+	font-family: "icomoon";
+	src: url("./fonts/icomoon/icomoon.eot?1o9ilv");
+	src:
+		url("./fonts/icomoon/icomoon.eot?1o9ilv#iefix") format("embedded-opentype"),
+		url("./fonts/icomoon/icomoon.woff2?1o9ilv") format("woff2"),
+		url("./fonts/icomoon/icomoon.ttf?1o9ilv") format("truetype"),
+		url("./fonts/icomoon/icomoon.woff?1o9ilv") format("woff"),
+		url("./fonts/icomoon/icomoon.svg?1o9ilv#icomoon") format("svg");
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	&::before {
+		/* use !important to prevent issues with browser extensions that change fonts */
+		font-family: "icomoon" !important;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		display: block;
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+.icon-arrow-left {
+	&::before {
+		content: $icon-arrow-left;
+	}
+}
+
+.icon-arrow-right {
+	&::before {
+		content: $icon-arrow-right;
+	}
+}
+
+.icon-arrow-down {
+	&::before {
+		content: $icon-arrow-down;
+	}
+}
+
+.icon-circle-arrow-down {
+	&::before {
+		content: $icon-circle-arrow-down;
+	}
+}

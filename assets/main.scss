@@ -1,0 +1,46 @@
+// Compile "main.scss" as "css/main.css"
+
+@import "common/variables";
+
+@import "../node_modules/swiper/swiper";
+
+/**
+ * Import Bootstrap sources
+ * https://getbootstrap.com/docs/5.2/customize/sass
+ */
+
+// @import "../node_modules/bootstrap/scss/bootstrap"; // Include all of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/**
+ * General
+ */
+
+@import "common/fonts";
+@import "common/typography";
+@import "icomoon/styles";
+@import "icomoon/variables";
+@import "common/global";
+@import "components/backgrounds";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/thanx-bar";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/follow-bar";
+@import "layouts/hours-bar";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+@import "layouts/splash";
+@import "layouts/about";
+@import "layouts/hero";
+@import "layouts/location";
+@import "layouts/menu";
+@import "layouts/mobile-menu";
+@import "layouts/contact";

@@ -1,0 +1,105 @@
+// colors
+$green: #004c14;
+$mint: #c6d8c5;
+$gold: #a77819;
+$white: #ffffff;
+$black: #0e2300;
+$chocolate: #4F2C1D;
+$berry: #F44C80;
+$cone: #FEF8F0;
+$cream: #FFFDF6;
+$sugar: #F6DAE0;
+
+.green {
+	color: $green;
+}
+
+.mint {
+	color: $mint;
+}
+
+.gold {
+	color: $gold;
+}
+
+.chocolate {
+	color: $chocolate;
+}
+
+.berry {
+	color: $berry;
+}
+
+.cone {
+	color: $cone;
+}
+
+.cream {
+	color: $cream;
+}
+
+.sugar {
+	color: $sugar;
+}
+
+.white {
+	color: $white;
+}
+
+.black {
+	color: $black;
+}
+
+// paths
+$path-fonts: "./fonts/";
+$path-png: "./images/png/";
+$path-jpg: "./images/jpg/";
+$path-svg: "./images/svg/";
+
+// fonts
+$font-playfair: "Playfair Display", serif;
+$font-poppins: "Poppins", sans-serif;
+$font-jambore: "TAN-Jambore", sans-serif;
+$font-jost: "Jost", sans-serif;
+
+// body fonts
+$font-family-base: $font-jost;
+
+// icomoon
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: $path-fonts + "./fonts/icomoon/" !default;
+
+/** Import Bootstrap functions */
+// @import './nod/bootstrap/scss/functions';
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+//grids
+$grid-gutter-width: 30px;
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 989px,
+	xl: 1100px,
+);
+
+$container-max-widths: (
+	// sm: 536px,
+	// md: 728px,
+	lg: 1575px,
+	xl: 1800px
+);
+
+/** Grid */
+$tablet: 992px;
+$mobile: 768px;
+$mobile-xs: 500px;
+
+.container-sm {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+}

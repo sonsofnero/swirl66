@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/matthewhay/.nvm/versions/node/v16.14.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/matthewhay/.gem/ruby/2.7.2/bin:/Users/matthewhay/.rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/bin:/Users/matthewhay/.rubies/ruby-2.7.2/bin:/Users/matthewhay/.nvm/versions/node/v16.14.0/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/matthewhay/.nvm/versions/node/v16.14.0/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: incorrect data check
+      at Zlib.zlibOnError [as onerror] (node:zlib:190:17)
+
+npm manifest: 
+  {
+  	"name": "themes-starter",
+  	"version": "3.0.0",
+  	"license": "GPL-2.0",
+  	"description": "A WordPress Starter Theme built with Bootstrap 5.",
+  	"homepage": "https://them.es",
+  	"author": "them.es",
+  	"repository": {
+  		"type": "git",
+  		"url": "git://github.com/them-es/themes-starter.git"
+  	},
+  	"scripts": {
+  		"watch": "webpack serve && wp-scripts start",
+  		"build": "wp-scripts build"
+  	},
+  	"browserslist": [
+  		"last 2 versions"
+  	],
+  	"dependencies": {
+  		"bootstrap": "^5.3.1",
+  		"@popperjs/core": "^2.11.8",
+  		"jquery": "^3.7.0"
+  	},
+  	"devDependencies": {
+  		"@wordpress/scripts": "^26.11.0",
+  		"path": "^0.12.7",
+  		"webpack-remove-empty-scripts": "^1.0.3"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

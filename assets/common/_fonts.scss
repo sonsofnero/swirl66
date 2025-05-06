@@ -1,0 +1,18 @@
+//Google: Playfair Display
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap");
+
+//Google: Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+//Google: Jost
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Webfont: TANJambore-Display */
+@font-face {
+  font-family: 'TAN-Jambore';
+  src: url('./fonts/jambore/TAN-Jambore.woff2') format('woff2'), /* Modern Browsers */
+       url('./fonts/jambore/TAN-Jambore.woff') format('woff'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}

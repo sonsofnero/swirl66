@@ -1,0 +1,148 @@
+.btn {
+	font-family: $font-jost;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 6px;
+	padding: 14px 24px;
+
+	&--round {
+		border-radius: 100px;
+		padding: 20px 40px;
+	}
+
+	&--gold {
+		background-color: $gold;
+		border: 3px solid $gold;
+		color: $white;
+
+		&:hover {
+			background-color: $black;
+			border: 3px solid $black;
+			color: $white;
+		}
+	}
+
+	&--brown {
+		background-color: $gold;
+		color: $white;
+
+		&:hover {
+			background-color: $gold;
+			color: $mint;
+		}
+	}
+
+	&--solid-cream {
+		background-color: $gold;
+		color: $white;
+		padding: 18px 42px;
+		border: 3px solid $gold;
+
+		&:hover {
+			background-color: $black;
+			border: 3px solid $black;
+			color: $gold;
+		}
+	}
+
+	&--solid-red {
+		background-color: $green;
+		color: $white;
+		padding: 18px 42px;
+		border: 3px solid $green;
+
+		&:hover {
+			background-color: $black;
+			border: 3px solid $black;
+			color: $white;
+		}
+	}
+
+	&--solid-berry {
+		background-color: $berry;
+		color: $cone;
+		padding: 18px 42px;
+		border: 3px solid $berry;
+
+		&:hover {
+			background-color: $chocolate;
+			border: 3px solid $chocolate;
+			color: $cone;
+		}
+	}
+
+	&--solid-black {
+		background-color: $black;
+		color: $white;
+		padding: 18px 42px;
+		border: 3px solid $black;
+
+		&:hover {
+			color: $mint !important;
+			background-color: $gold;
+			border: 3px solid $gold;
+		}
+	}
+
+	&--solid-red {
+		background-color: $green;
+		color: $white;
+	}
+
+	&--solid-brown {
+		background-color: $gold;
+		color: $white;
+	}
+
+	&--solid-white {
+		background-color: $white;
+		color: $green;
+	}
+
+	&--outline-red {
+		background-color: transparent;
+		color: $white;
+		padding: 18px 42px;
+		border: 3px solid $green;
+		color: $green;
+
+		&:hover {
+			background-color: $gold;
+			border: 3px solid $gold;
+			color: $mint;
+		}
+	}
+
+	&--arrow {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		i {
+			color: $green;
+			margin-right: 15px;
+			font-size: 27px;
+			position: relative;
+
+			&::before {
+				z-index: 1;
+				position: relative;
+			}
+
+			&::after {
+				content: "";
+				width: 12px;
+				height: 12px;
+				background-color: #fff;
+				position: absolute;
+				z-index: 0;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+}

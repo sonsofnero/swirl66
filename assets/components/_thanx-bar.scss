@@ -1,0 +1,27 @@
+.thanx-bar {
+	padding: 3.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: relative;
+	color: $cone;
+	background-color: $berry;
+
+	.text-wrapper {
+		text-align: center;
+		width: 100%;
+		max-width: 750px;
+
+		.logo {
+			display: block;
+			max-width: 200px;
+			margin: 0 auto 24px;
+		}
+	}
+
+	&:hover {
+		color: $sugar;
+		text-decoration: none;
+	}
+}
