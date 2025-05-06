@@ -35,14 +35,15 @@
 	text-transform: uppercase;
 	text-align: center;
 	border-radius: 6px;
-	background-color: $gold !important;
+	background-color: $berry !important;
 	color: $white !important;
 	padding: 18px 42px;
-	border: 3px solid $gold !important;
+	border: 3px solid $berry !important;
 	transition: all 0.3s ease-in-out;
 
 	&:hover {
-		background-color: $green !important;
-		border: 3px solid $green !important;
+		background-color: $chocolate !important;
+		border: 3px solid $chocolate !important;
+		color: $white !important;
 	}
 }
