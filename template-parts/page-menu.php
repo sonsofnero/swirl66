@@ -102,3 +102,9 @@
 
 </div>
 </div>
+
+<script>
+document.querySelector('.menu__select select').addEventListener('change', function() {
+    window.location.hash = this.value;
+});
+</script>
