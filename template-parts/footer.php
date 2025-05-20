@@ -13,7 +13,7 @@
         <li><a href="<?php echo the_field('instagram', 'option') ?>">Instagram</a></li>
         <!-- <li><a href="<?php echo the_field('facebook', 'option') ?>">Facebook</a></li> -->
       </ul>
-      <span class="body--sm">Copyright © <?php echo date('Y') ?> Bishop Quigley</span>
+      <span class="body--sm">Copyright © <?php echo date('Y') ?> Swirl 66</span>
     </div>
   </div>
 </footer>

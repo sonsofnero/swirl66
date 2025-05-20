@@ -3,8 +3,8 @@
 
 <!-- Start: Menu Header -->
   <div class="menu__hdr">
-    <span class="h4 d-block mb-3">The Menu</span>
-    <h3 class="h1">Swirl 66</h3>
+    <span class="h4 d-block text-uppercase">The Menu</span>
+    <h3 class="h1 black">Maple Ridge Grocer</h3>
     <hr class="divider">
     <ul class="menu__categories">
       <?php
@@ -38,7 +38,7 @@
       ?>
 
 	  <?php foreach ($categories as $cat) : { ?>
-        <option value="<?php echo $cat->slug ?>"><?php echo $cat->name ?></option>
+        <option value="#<?php echo $cat->slug ?>"><?php echo $cat->name ?></option>
 	<?php } endforeach ?>
     </select>
     </div>
@@ -59,7 +59,7 @@
       ?>
 
 	<?php foreach ($categories as $cat) : { ?>
-        <option value="<?php echo $cat->slug ?>"><?php echo $cat->name ?></option>
+        <li><a href="#<?php echo $cat->slug ?>"><?php echo $cat->name ?></a></li>
 	<?php } endforeach ?>
     </ul>
    <!-- End: Menu Left Category List -->
