@@ -1,3 +1,9 @@
+<?php
+if (isset($_GET['category']) && $_GET['category'] !== 'Choose...') {
+    wp_redirect(home_url('/menu/#' . $_GET['category']));
+    exit;
+}
+?>
 <div class="bg-white">
 <div class="menu container" id="menu-section">
 
@@ -26,21 +32,23 @@
   <div class="menu__select">
     <span>Choose:</span>
     <div class="select">
-    <select class="form-control">
-      <span></span>
-      <option selected>Choose...</option>
-      <?php
-        $cat_args = array(
-          'option_all' => 'All'
-        );
+    <form onchange="this.submit()">
+      <select class="form-control" name="category">
+        <span></span>
+        <option selected>Choose...</option>
+        <?php
+          $cat_args = array(
+            'option_all' => 'All'
+          );
 
-        $categories = get_categories($cat_args);
-      ?>
+          $categories = get_categories($cat_args);
+        ?>
 
-	  <?php foreach ($categories as $cat) : { ?>
-        <option value="#<?php echo $cat->slug ?>"><?php echo $cat->name ?></option>
-	<?php } endforeach ?>
-    </select>
+        <?php foreach ($categories as $cat) : { ?>
+          <option value="<?php echo $cat->slug ?>"><?php echo $cat->name ?></option>
+        <?php } endforeach ?>
+      </select>
+    </form>
     </div>
   </div>
   <!-- End: Menu Mobile Select -->
@@ -102,3 +110,19 @@
 
 </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuSelect = document.querySelector('.menu__select select');
+    
+    menuSelect.addEventListener('change', function() {
+        const selectedValue = this.value;
+        if (selectedValue && selectedValue !== 'Choose...') {
+            const targetElement = document.querySelector(selectedValue);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
+});
+</script>
