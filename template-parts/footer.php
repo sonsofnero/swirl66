@@ -42,6 +42,7 @@
         <a href="https://jimmyschophouse.com/" class="swiper-slide slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/jimmys-sm.svg"></a>
         <a href="https://cityhallsteak.com/" class="swiper-slide slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/cityhall-sm.svg"></a>
         <a href="https://malfienoteca.com/" class="swiper-slide slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/malfi-sm.svg"></a>
+        <a href="https://swirl66.com/" class="swiper-slide slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/swirl66-sm.svg"></a>
         <a href="https://mcnelliesgroup.com/" class="swiper-slide slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/group-sm.svg"></a>
       </div>
       <div class="location-btn-next hide-sm"></div>

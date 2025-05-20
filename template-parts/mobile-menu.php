@@ -148,6 +148,12 @@
 				</a>
 			</li>
 			<li>
+				<a href="https://swirl66.com/">
+					<img class="restaurant-logo" src="<?php echo bloginfo('template_directory'); ?>/assets/images/png/logos/swirl66-logo.png">
+					<div class="bg-image bg-cover" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/png/swirl66.jpg"></div>
+				</a>
+			</li>
+			<li>
 				<a href="https://mcnelliesgroupcatering.com/">
 					<img class="restaurant-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/png/logos/catering-logo.png">
 					<div class="bg-image bg-cover" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/png/catering.png"></div>
