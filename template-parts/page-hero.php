@@ -4,7 +4,7 @@
     <div class="col-lg-6 p-0">
       <div class="hero__content">
         <a href="" class="hero__logo"><img src="<?php echo bloginfo('template_directory'); ?>/assets/images/svg/swirl66-logo-badge.svg"></a>
-        <h2 class="h5"><?php echo the_field('hero_headline', 'option') ?></h2>
+        <h2 class="h5"><?php echo get_field('hero_headline', 'option') ?></h2>
         <ul class="hero__buttons mb-4">
           <?php
             $button1 = get_field('hero_button_1', 'option');

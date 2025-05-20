@@ -7,11 +7,11 @@
 
     <div class="footer__right">
       <ul class="footer__nav">
-        <li><a href="tel:<?php echo the_field('phone_number',
-            'option') ?>" class="phone-number"><?php echo the_field('phone_number',
+        <li><a href="tel:<?php echo get_field('phone_number',
+            'option') ?>" class="phone-number"><?php echo get_field('phone_number',
             'option') ?></a></li>
-        <li><a href="<?php echo the_field('instagram', 'option') ?>">Instagram</a></li>
-        <!-- <li><a href="<?php echo the_field('facebook', 'option') ?>">Facebook</a></li> -->
+        <li><a href="<?php echo get_field('instagram', 'option') ?>">Instagram</a></li>
+        <!-- <li><a href="<?php echo get_field('facebook', 'option') ?>">Facebook</a></li> -->
       </ul>
       <span class="body--sm">Copyright © <?php echo date('Y') ?> Swirl 66</span>
     </div>

@@ -3,7 +3,7 @@
 
     <div class="col-lg-5 p-0">
       <div class="img-container">
-        <img src="<?php echo the_field('contact_image', 'option') ?>">
+        <img src="<?php echo get_field('contact_image', 'option') ?>">
       </div>
     </div>
 
@@ -14,7 +14,7 @@
           <h3 class="h1">Contact Us</h3>
         </div>
 
-        <?php echo the_field('contact_form', 'option') ?>
+        <?php echo get_field('contact_form', 'option') ?>
       </div>
     </div>
 
