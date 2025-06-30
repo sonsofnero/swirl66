@@ -4,7 +4,7 @@
 <!-- Start: Menu Header -->
   <div class="menu__hdr">
     <span class="h4 d-block text-uppercase">The Menu</span>
-    <h3 class="h1 black">Maple Ridge Grocer</h3>
+    <h3 class="h1 black">Swirl 66</h3>
     <hr class="divider">
     <ul class="menu__categories">
       <?php
